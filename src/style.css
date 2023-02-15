@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+/* スタイリング */
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo{
+  font-size: 35px;
+}
+
+header ul{
+  list-style: none;
+}
+
+header ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+
+header ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main h1{
+  font-size: 5rem;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+main p {
+  font-size: 20px;
+}
